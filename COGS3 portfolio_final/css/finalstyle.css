@@ -1,0 +1,203 @@
+/* COGS3 Final Portfolio specific styles go here. */
+#title{
+  background-color:#ca9bc6dc;
+}
+
+h1{
+  font-family:'Satisfy';
+  font-weight:bold;
+  font-size:4rem;
+  line-height:1.5;
+  color:#fff;
+  color: white;
+}
+h2{
+  color:#fff;
+  font-family:'Fasthand';
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+h3{
+  font-family: 'Fasthand';
+  font-weight:bold;
+  
+  font-size:3rem;
+}
+p{
+  color:#8f8f8f;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/* Navigation Bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family:'Fasthand';
+  font-size:3rem;
+  font-weight:bold;
+  color: rgb(96, 123, 96);
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family:'Fasthand';
+  font-weight:bold;
+  font-size:1.5rem;
+  color: rgb(96, 123, 96);
+}
+
+
+/* Title Image */
+.title-image{
+  width:60%;
+  transform: rotate(20deg);
+  position:absolute;
+}
+
+/* Features section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  z-index:1;
+  position: relative;
+  color: rgb(49, 129, 138);
+}
+.intro{
+  color:rgb(49, 129, 138);
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color:#0a5f15e1;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:#714593dc;
+}
+/* Testimonials Section */
+#live{
+  padding: 7% 15%;
+  text-align:center;
+  background-color:rgb(234, 168, 75);
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.placesIhavelived-image{
+  width: 60%;
+  border-radius:100%;
+  margin:10px;
+}
+#press{
+  background-color: #fff;
+  text-align:center;
+}
+.blank-space{
+  background-color: #fff;
+}
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+/* Courses Section */
+#courses{
+  padding:100px;
+  text-align: left;
+  background-color:#ca9bc6dc;;
+  padding: 7% 15%;
+}
+.courses-header{
+  color: rgb(96, 123, 96);
+  font-family:'Fasthand';
+  font-size:3.5rem;
+}
+.course-p{
+  font-family:'Fasthand';
+  font-size:1.5rem;
+}
+.courses-heading{
+  color: rgb(96, 123, 96);
+  font-size:2rem;
+}
+.courses-head{
+  color:rgb(96, 123, 96);
+}
+.courses-column{
+  padding: 3% 2%;
+}
+.courses-image{
+  width:300px;
+  height:400px;
+  text-align:center;
+  background-color: antiquewhite;
+}
+.courses-para{
+  color:rgb(96, 123, 96);
+}
+/* Contact info */
+#cta{
+  background-color:rgb(49, 129, 138);
+  color:#fff;
+  padding: 7% 15%;
+  text-align: left;
+}
+.cta-heading{
+  font-family:'Fasthand';
+  font-weight:bold;
+  font-size:2.5rem;
+  line-height: 1.5;
+}
+a{
+  font-family:'Fasthand';
+  font-weight:bold;
+  font-size:1.5rem;
+}
+a:link{
+  color:#ca9bc6dc;
+}
+a:hover{
+  color: rgb(234, 168, 75);
+}
+a:visited{
+  color: palevioletred;
+}
+
+/*Personality Section*/
+#personality{
+  padding: 7% 15%;
+  color: rgb(234, 180, 80);
+}
+.personal{
+  color:rgb(234, 180, 80);
+}
+
+/* Footer Section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+.social-icon{
+  margin:20px 10px;
+}
+
+
+/* Media Query Section */
+@media(max-width:1028px)
+{
+ #title{
+  text-align:center;
+ }
+  .title-image
+  {
+    position:static;
+    transform:rotate(0);
+  }
+}
